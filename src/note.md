@@ -1,19 +1,16 @@
-- Declaration of standard libraries
+<h2> Declaration of standard libraries </h2>
 
-use std::io;
-use std::io::prelude::*;
+<h2> Starts the code block of the main function</h2>
 
-- Starts the code block of the main function
+-fn main
 
-fn main
-
-- We initialize and declare a mutable variable of type String
+<h2> We initialize and declare a mutable variable of type String</h2>
 
 let mut name = String::new();
 
-- We print a string to the screen requesting input
+<h2> We print a string to the screen requesting input</h2>
 
-print!("Enter your name: ");
+-print!("Enter your name: ");
 
 -  We call the stdout() output method -> it directs the output to the standard device (monitor)
 -  We call the read_line() function to read the value into the &mut name string
